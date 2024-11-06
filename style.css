@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    perspective: 1000px; 
+  }
+  
+  .carousel {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: spin 15s infinite linear;
+    transform-origin: center center; 
+  }
+  
+  .rectangle {
+    position: absolute;
+    width: 90px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .rectangle:nth-child(1) { 
+    background-color: rgba(255, 105, 180, 0.75);
+    transform: rotateY(0deg) translateZ(150px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .rectangle:nth-child(2) { 
+    background-color: rgba(64, 224, 208, 0.75);
+    transform: rotateY(72deg) translateZ(150px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .rectangle:nth-child(3) { 
+    background-color: rgba(138, 43, 226, 0.75);
+    transform: rotateY(144deg) translateZ(150px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .rectangle:nth-child(4) { 
+    background-color: rgba(255, 165, 0, 0.75);
+    transform: rotateY(216deg) translateZ(150px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .rectangle:nth-child(5) {
+    background-color: rgba(75, 0, 130, 0.75); 
+    transform: rotateY(288deg) translateZ(150px);
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes spin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+  }
+  
