@@ -2,7 +2,7 @@
 
 <p id="description">A visually engaging 3D carousel built with HTML and SCSS featuring a smooth revolving effect without any JavaScript. Perfect for e-commerce stores, portfolios, corporate websites, photography, and more, this carousel brings an interactive touch to your web projects.</p>
 
-![preview-3d-carousel](https://github.com/user-attachments/assets/6b50ce30-e9b0-45aa-8299-99b343623d47)
+![preview-3d-carousel](https://github.com/chriskript/3d-carousel/blob/main/3d-revolving-carousel.gif)
 
 <h2>🚀 Demo</h2>
 
