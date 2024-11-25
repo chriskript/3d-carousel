@@ -32,6 +32,12 @@ git clone https://github.com/chriskript/3d-carousel.git
 cd 3d-carousel
 ```
 
+<p>3. Compile SCSS to CSS (if not already done)</p>
+
+```bash
+sass styles.scss styles.css
+```
+
 <p>3. Open the index.html file in your preferred web browser to view and interact with the game.</p>
 
   
