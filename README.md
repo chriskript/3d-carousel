@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[https://chriskript.io](https://chriskript.io)
+[Preview project](https://chriskript.github.io/3d-carousel/)
 
   
   
